@@ -1,0 +1,83 @@
+body {
+	background-image: linear-gradient(to bottom, #FFFFFF, #2371b4);
+	color: #072E96;
+	font-family: Verdana, Arial, sans-serif;
+}
+header a {
+	text-decoration: none;
+}
+nav {
+	float: left;
+	width: 150px;
+	background-color: #c9161f;
+}
+main {
+	margin-left: 165px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 10px;
+}
+nav a {
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+}
+nav a:link {
+	color: #313335;
+}
+nav a:visited {
+	color: #a8a8a8;
+}
+nav a:hover {
+	color: #ebee37;
+}
+footer {
+	font-style: italic;
+	margin-left: 165px;
+}
+#special {
+	clear: both;
+}
+table {
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	color: #000000;
+	background-color: #c9161f;
+}
+tr:nth-of-type(odd) {
+	background-color: #BDDFF0;
+}
+td {
+	padding: 0.5em;
+	border: 2px solid #000000;
+	text-align: center;
+}
+th {
+	padding: 0.5em;
+	border: 2px solid #000000;
+}
+.text {
+	text-align: left;
+}
+#special {
+	clear: both;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	margin-left: 140px;
+}
